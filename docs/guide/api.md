@@ -18,3 +18,11 @@ requestPayment(params).then(res => {
   console.log(res);
 });
 ```
+
+如果你需要直接访问原生 api，或者需要使用 remax 还没有更新的 api，也可以直接访问原生模块：
+
+```js
+import { native } from 'remax/wechat';
+
+// native 相当于微信小程序中的 wx 变量
+```

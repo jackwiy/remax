@@ -2,6 +2,8 @@ import promisify, { optionalPromisify } from '../../utils/promisify';
 
 export const getAppStub = getApp;
 
+export const native = wx;
+
 export const canIUse = wx.canIUse;
 export const base64ToArrayBuffer = wx.base64ToArrayBuffer;
 export const arrayBufferToBase64 = wx.arrayBufferToBase64;

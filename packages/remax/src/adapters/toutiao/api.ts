@@ -1,7 +1,8 @@
-// TODO promise 化补充完整
 import promisify, { optionalPromisify } from '../../utils/promisify';
 
 export const getAppStub = getApp;
+
+export const native = tt;
 
 export const getSystemInfoSync = tt.getSystemInfoSync;
 export const getSystemInfo = optionalPromisify(tt.getSystemInfo);

@@ -1,7 +1,8 @@
-// TODO promise 化补充完整
 import promisify from '../../utils/promisify';
 
 export const getAppStub = getApp;
+
+export const native = my;
 
 export const addCardAuth = promisify(my.addCardAuth);
 export const addPhoneContact = my.addPhoneContact;
